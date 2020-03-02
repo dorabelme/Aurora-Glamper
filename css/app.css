@@ -7823,5 +7823,7 @@ body {
   #showcase {
     min-height: 500px;
     font-size: 4rem; } }
+#quotes i {
+  opacity: 0.3; }
 
 /*# sourceMappingURL=app.css.map */
