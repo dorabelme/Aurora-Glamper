@@ -1,6 +1,5 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: pink;
   font-size: 62.5%;
 }
 
@@ -66,5 +65,11 @@ body {
   #showcase {
     min-height: 500px;
     font-size: 4rem;
+  }
+}
+
+#quotes {
+  i {
+    opacity: 0.3;
   }
 }

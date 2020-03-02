@@ -7775,7 +7775,6 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: pink;
   font-size: 62.5%; }
 
 .navbar {
@@ -7824,5 +7823,7 @@ body {
   #showcase {
     min-height: 500px;
     font-size: 4rem; } }
+#quotes i {
+  opacity: 0.3; }
 
 /*# sourceMappingURL=app.css.map */
