@@ -4,7 +4,7 @@
 
 🏕 Fictional camping website built using Bootstrap 4.
 
-[Deployed front-end](hhttps://aurora-glamper.netlify.com/)
+[Deployed front-end](https://aurora-glamper.netlify.com/)
 
 ![aurora glamper](./aurora-glamper.png)
 
