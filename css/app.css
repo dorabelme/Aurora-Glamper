@@ -7814,8 +7814,21 @@ body {
     font-size: 1.5rem;
     border-radius: 2rem; }
 
+#explore #card-text {
+  font-size: 1rem; }
+
+#quotes i {
+  opacity: 0.3; }
+#quotes #review {
+  font-size: 0.8rem; }
+
+#carousel #carouselLink {
+  font-size: 1rem; }
+
 #footer {
   font-weight: 100; }
+  #footer #footerLink {
+    font-size: 1rem; }
 
 @media (max-width: 768px) {
   .navbar {
@@ -7825,8 +7838,13 @@ body {
 
   #showcase {
     min-height: 500px;
-    font-size: 4rem; } }
-#quotes i {
-  opacity: 0.3; }
+    font-size: 4rem; }
+    #showcase #smallTitle {
+      font-size: 1.5rem; }
+    #showcase #title {
+      font-size: 4rem; }
+
+  #footer #footerLink {
+    font-size: 0.8rem; } }
 
 /*# sourceMappingURL=app.css.map */
