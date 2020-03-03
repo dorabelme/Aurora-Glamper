@@ -7830,6 +7830,13 @@ body {
   #footer #footerLink {
     font-size: 1rem; }
 
+#bookingModal h5 {
+  font-size: 2rem; }
+#bookingModal label,
+#bookingModal p {
+  font-size: 1rem;
+  font-weight: 900; }
+
 @media (max-width: 768px) {
   .navbar {
     background: #1f1f1f; }
