@@ -44,8 +44,8 @@
     <section id="showcase" class="d-flex justify-content-center align-items-center">
         <div id="overlay"></div>
         <div id="header" class="container text-white text-center">
-            <h3 class="display-5 mb-0">MODERN CAMPING</h3>
-            <h1 class="display-1">AURORA GLAMPER</h1>
+            <h3 id="smallTitle" class="display-6 display-md-5 mb-0">MODERN CAMPING</h3>
+            <h1 id="title" class="display-1">AURORA GLAMPER</h1>
             <p class="lead d-none d-md-block">Do you want to get the best look at the Northern Lights? Reserve the
                 glamping experience Now!</p>
             <button id="book" class="btn btn-lg btn-primary px-5">BOOK NOW</button>
@@ -57,26 +57,26 @@
             <div class="row">
                 <div class="col-md-4 p-3">
                     <img src="images/icons/tent.png" alt="" class="img-fluid d-none d-md-inline"></img>
-                    <h3>Amenities You Want</h3>
-                    <p class="lead">The luxury tents are set up in a beautiful area and tents include a seating area and
-                        a bathroom.</p>
+                    <h3 class="mt-2">Amenities You Want</h3>
+                    <p class="lead mt-2">The luxury tents are set up in a beautiful area and tents include a seating
+                        area and a bathroom.</p>
                 </div>
                 <div class="col-md-4 p-3">
                     <img src="images/icons/campfire.png" alt="" class="img-fluid d-none d-md-inline"></img>
-                    <h3>The Food You Crave</h3>
-                    <p class="lead">Are you vegetarian? Not a problem. We have a wide range of variety to choose from.
-                    </p>
+                    <h3 class="mt-2">The Food You Crave</h3>
+                    <p class="lead mt-2">Are you vegetarian? Not a problem. We have a wide range of variety to choose
+                        from. </p>
                 </div>
                 <div class="col-md-4 p-3">
                     <img src="images/icons/nature.png" alt="" class="img-fluid d-none d-md-inline"></img>
-                    <h3>The Nature You Need</h3>
-                    <p class="lead">Get ready for long hikes, skiing, cycling, refreshing in the sauna, and many more
-                        fun activities...</p>
+                    <h3 class="mt-2">The Nature You Need</h3>
+                    <p class="lead mt-2">Get ready for long hikes, skiing, cycling, refreshing in the sauna, and many
+                        more fun activities...</p>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section id="explore">
         <div class="container text-center mt-2 p-3">
             <h3>WE'VE CREATED A CAMPING EXPERIENCE THAT'S FUN AND HASSLE FREE. </h3>
             <div class="row m-2">
@@ -85,8 +85,9 @@
                         <img src="images/experience.jpg" alt="" class="card-img-top">
                         <div class="card-body">
                             <h2 class="card-title text-primary">EXPERIENCE</h2>
-                            <p class="card-text">Experience the Northern Lights as you've never seen before.</p>
-                            <a href="" class="btn btn-lg btn-outline-primary">Learn More</a>
+                            <p id="card-text" class="card-text">Experience the Northern Lights as you've never seen
+                                before.</p>
+                            <a href="#" class="btn btn-lg btn-outline-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -95,8 +96,9 @@
                         <img src="images/explore2.jpg" alt="" class="card-img-top">
                         <div class="card-body">
                             <h2 class="card-title text-primary">EXPLORE</h2>
-                            <p class="card-text">Explore our beautiful National Park with professional guides.</p>
-                            <a href="" class="btn btn-lg btn-outline-primary">Learn More</a>
+                            <p id="card-text" class="card-text">Explore our beautiful National Park with professional
+                                guides.</p>
+                            <a href="#" class="btn btn-lg btn-outline-primary">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +115,7 @@
                         <p>What an awesome experience! The staff were lovely and caring, and the lights were absolutely
                             stunning.</p>
                     </blockquote>
-                    <footer class="blockquote-footer">Adam Paterson</footer>
+                    <footer class="blockquote-footer" id="review">Adam Paterson</footer>
                 </div>
                 <div class="col-md-4 my-2">
                     <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
@@ -121,7 +123,7 @@
                         <p>Everything about the glamping experience is fantastic. It looks exactly like the pictures and
                             the view to wake up to is phenomenal.</p>
                     </blockquote>
-                    <footer class="blockquote-footer">Lily Smith</footer>
+                    <footer class="blockquote-footer" id="review">Lily Smith</footer>
                 </div>
                 <div class="col-md-4 my-2">
                     <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
@@ -129,12 +131,12 @@
                         <p>The location is secluded and breath-taking. There is lots of possible activities to choose
                             from.</p>
                     </blockquote>
-                    <footer class="blockquote-footer">Tom Hoffman</footer>
+                    <footer class="blockquote-footer" id="review">Tom Hoffman</footer>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section id="carousel">
         <div class="container mt-5">
             <div class="row">
                 <div class="col-lg-7 mb-3">
@@ -165,9 +167,10 @@
                 </div>
                 <div class="col-lg-5">
                     <h3>CAMPING MADE COZY</h3>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat autem dolore
-                        recusandae dolorem tempore laudantium porro quos ratione, quam officia!</p>
-                    <a href="">See for yourself <i class="fa fa-arrow-right"></i></a>
+                    <p class="lead">We offer well-equipped luxury tents with seating area and bathrooms. Our restaurants
+                        have a wide variety of options - we're prepared for meat lovers and vegans. We make sure with
+                        daily activities that you have the best time of your life. </p>
+                    <a id="carouselLink" href="#">See for yourself <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -204,16 +207,16 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="quotes">
         <div class="container text-center mt-4">
             <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
             <blockquote class="blockquote">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus dicta nam eligendi, dolorem sed
-                    ex, impedit aliquam veritatis cupiditate quasi iure nihil optio aut. Itaque nesciunt laborum
-                    distinctio eligendi commodi quas. Itaque, fugit necessitatibus tempora quam obcaecati porro dolorum
-                    vitae, magnam et, nostrum laborum! Voluptatum facilis eum aliquam architecto voluptates.</p>
+                <p>It was on my bucket list to see the Northern Lights. Aurora Glamper has a very special location. The
+                    tents are well appointed, the atmosphere is wonderful and it feels like a very private retreat. The
+                    staff is professional and incredibly helpful. Definitely the best birthday trip I've had so far!
+                </p>
             </blockquote>
-            <footer class="blockquote-footer">Tom Hoffman</footer>
+            <footer class="blockquote-footer mb-3" id="review">Rebecca Smith</footer>
         </div>
     </section>
     <section class="bg-dark">
@@ -236,19 +239,19 @@
     <section id="footer" class="bg-secondary p-3">
         <ul class="nav text-center justify-content-center flex-column flex-sm-row">
             <li class="nav-item">
-                <a href="" class="nav-link text-white">FAQ</a>
+                <a id="footerLink" href="" class="nav-link text-white">FAQ</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-white">EXPERIENCE</a>
+                <a id="footerLink" href="" class="nav-link text-white">EXPERIENCE</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-white">EXPLORE</a>
+                <a id="footerLink" href="" class="nav-link text-white">EXPLORE</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-white">CONTACT</a>
+                <a id="footerLink" href="" class="nav-link text-white">CONTACT</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-white">BOOK NOW</a>
+                <a id="footerLink" href="" class="nav-link text-white">BOOK NOW</a>
             </li>
         </ul>
     </section>

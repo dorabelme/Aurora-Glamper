@@ -54,8 +54,33 @@ body {
   }
 }
 
+#explore {
+  #card-text {
+    font-size: 1rem;
+  }
+}
+
+#quotes {
+  i {
+    opacity: 0.3;
+  }
+  #review {
+    font-size: 0.8rem;
+  }
+}
+
+#carousel {
+  #carouselLink {
+    font-size: 1rem;
+  }
+}
+
 #footer {
   font-weight: 100;
+
+  #footerLink {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -69,11 +94,19 @@ body {
   #showcase {
     min-height: 500px;
     font-size: 4rem;
-  }
-}
 
-#quotes {
-  i {
-    opacity: 0.3;
+    #smallTitle {
+      font-size: 1.5rem;
+    }
+
+    #title {
+      font-size: 4rem;
+    }
+  }
+
+  #footer {
+    #footerLink {
+      font-size: 0.8rem;
+    }
   }
 }
