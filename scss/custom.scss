@@ -83,6 +83,18 @@ body {
   }
 }
 
+#bookingModal {
+  h5 {
+    font-size: 2rem;
+  }
+
+  label,
+  p {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar {
     background: #1f1f1f;
